@@ -107,3 +107,8 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+.score-panel .reveal {
+    float: left;
+    cursor: pointer;
+}

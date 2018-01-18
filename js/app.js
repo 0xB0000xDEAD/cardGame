@@ -1,7 +1,17 @@
 /*
  * Create a list that holds all of your cards
  */
+const deck = document.getElementsByClassName('card');
+console.log(deck);
 
+const revealButton = document.querySelector('.reveal');
+// console.log(revealButton);
+
+revealButton.addEventListener('click', function () {
+  console.log('The reveal button was clicked!');
+  reveal();
+  console.log(deck);
+});
 
 /*
  * Display the cards on the page
@@ -9,6 +19,16 @@
  *   - loop through each card and create its HTML
  *   - add each card's HTML to the page
  */
+
+function reveal() {
+  // console.log("rivela le carte!");
+  deck[1].className = "card.open";
+  // for (card of deck) {
+  //   card.setAttribute("className", "sergio");
+  //   // card.setAttribute("style", "background-color: red;");
+  //
+  // }
+}
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {

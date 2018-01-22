@@ -103,12 +103,26 @@ h1 {
     display: inline-block;
 }
 
+.score-panel .control {
+  float: right;
+}
+
 .score-panel .restart {
-    float: right;
     cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+
 }
 
 .score-panel .reveal {
-    float: left;
     cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.score-panel .hide {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+
 }
